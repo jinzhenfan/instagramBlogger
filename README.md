@@ -4,7 +4,7 @@ First, I performed a google search on "Instagram fashion Blogger".
 Then a chrome add-on, linkclump, was used to get the links of 391 fashion review articles from the search results, saved in googlesearchlinks.csv.
 Here is a link on how to use linkclump: 
 https://www.linkedin.com/pulse/how-scrape-1000-google-search-result-links-5-minutes-graham-onak
-Afterwards, I wrote a Python script to scrap accounts of all the recommended bloggers from 391 links, usign beautifulsoup. See soup.py. Results were saved in bloggerList.csv
+Afterwards, I wrote a Python script to scrap accounts of all the recommended bloggers from 391 links, using beautifulsoup. See soup.py. Results were saved in bloggerList.csv
 
 Then I wrote blogger_info_collection.py to scrap the raw html of Instagram pages, and get statistics of followers, posts, tags, likes, comments, icons, and emoji from each blogger. The python-instagram API was no longer being maintained, so I wrote my own scripts to do this job.
 
